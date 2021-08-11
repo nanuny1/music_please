@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musicplease</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+        <header class="header">
+            <div class="container logo-nav-navigation">
+                <img class="a" src=https://themusicplease.com/static/8be36f2e8c7680a03e2de2ebec90223d/7dac8/PLEASE.png alt=logo>
+            <!-- Secciones alineados al logo-->
+        <nav class="navigation">
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="musica.html">MUSICA</a></li>
+                    <li><a href="espectaculos.html">ESPECTACULOS</a></li>
+                    <li><a href="novedades.html">NOVEDADES</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+                <!--buscador a la derecha extrema-->
+                <input type="text" name="search" placeholder="buscar" class ="src"autocomplete="off">
+                </div>
+            </div>
+            <hr color=black>
+            </nav>
+        </header>
+                  <!--Mejorar diseño de contacto-->
+    	<div id="contacto">
+            <h1>Contacto</h1>
+            <p class= "distinto"> Completá el formulario </p>
+            </div>
+                <form action="" method="POST">
+                    <label for="nombre"> Ingrese su nombre: </label>
+                    <input id="nombre" type="text" name="nombre" required>
+                    <br>
+                    <label for="email">Ingrese su email: </label>
+                    <input id="email" type="email" placeholder="email@email.com"= required>
+                    <br>
+                    <label for="razon">¿Cómo te podemos ayudar?: </label>
+                    <select name="opciones">
+                        <option value="0" >opciones</option>
+                        <option value="1" >shows</option>
+                        <option value="2" >consultas</option>
+                        <option value="3" >Trabaja con nosotrxs</option>
+                    </select>
+                    <br>
+                <label for="mensaje">Dejanos tu mensaje</label>
+            <br>	
+                <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Mensaje..." style="resize:vertical"></textarea>
+                </form>
+            </div>
+        </body>
+        </html> 
